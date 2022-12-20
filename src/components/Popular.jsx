@@ -63,13 +63,14 @@ position: relative;
 img{
     border-radius: 2rem;
     position: absolute;
-    left:0;
-    width:100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 p{
     position: absolute;
-    z-index:10;
+    z-index: 10;
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, 0%);
