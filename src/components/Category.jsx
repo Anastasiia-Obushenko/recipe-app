@@ -35,10 +35,10 @@ margin: 2rem 0rem;
 `;
 
 const SLink = styled(NavLink)`
-displa: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: cemter;
+align-items: center;
 border-radius: 50%;
 margin-right: 2rem;
 text-decoration: none;
@@ -56,7 +56,7 @@ h4{
 svg{
     color:white
 }
-$.active{
+&.active{
     background: linear-gradient(to right, #f27121, #e94057);
     svg{
         color: white;
