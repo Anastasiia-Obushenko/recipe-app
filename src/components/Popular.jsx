@@ -37,7 +37,7 @@ function Popular() {
                     options={{
                     perPage: 4,
                     arrows: false,
-                    paginations: false,
+                    pagination: false,
                     drag: 'free',
                     gap:'5rem'
                     }}
@@ -100,6 +100,6 @@ z-index: 3;
 position: absolute;
 width: 100%;
 height: 100%;
-backgruond: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
 `;
 export default Popular;

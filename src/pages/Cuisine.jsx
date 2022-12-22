@@ -12,7 +12,7 @@ function Cuisine() {
 
     const getCuisine = async (name) => {
         const data = await fetch(
-            `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&number=10&cuisine=${name}`
+            `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&cuisine=${name}`
         );
         const recipes = await data.json();
         setCuisine(recipes.results);
@@ -42,10 +42,6 @@ grid-gap: 3rem;
 `;
 
 const Card = styled.div`
-min-height: 25rem;
-border-radius: 2rem;
-overflow: hidden;
-position: relative;
 img{
     width: 100%;
     border-radius: 2rem;

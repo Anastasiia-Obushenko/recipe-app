@@ -5,9 +5,10 @@ import React from 'react'
 
 function Home() {
   return (
-      <div>
+    <div>
+      <Veggie />
           <Popular />
-          <Veggie />
+
     </div>
   )
 }
